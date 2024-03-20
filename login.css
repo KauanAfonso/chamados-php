@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Adiciona uma fonte mais agradável */
+}
+
+main {
+    background: linear-gradient(rgb(0, 0, 0), rgb(37, 37, 37));
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+img{
+
+    width: 10rem;
+}
+
+#container  {
+   
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+   
+    background-image: linear-gradient(rgba(21, 21, 21, 0.6), rgb(30, 30, 30));
+    color: #f0f0f0; /* Altera a cor do texto */
+    padding: 4rem; /* Reduz o espaçamento interno */
+    border-radius: 15px; /* Aumenta o raio da borda */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ajusta a sombra */
+    padding: 5rem 10rem;
+    border: #000000 solid balck;
+}
+
+#container input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px; /* Ajusta o raio da borda */
+    background: #333; /* Ajusta a cor de fundo */
+    color: #fff; /* Ajusta a cor do texto */
+    border: none;
+    margin-bottom: 1rem; /* Adiciona espaço entre os inputs */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;    
+    
+
+}
+
+::placeholder {
+    color: #c9c9c9;
+}
+
+button {
+    width: 108%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff; /* Ajusta a cor do texto */
+    border: none;
+    cursor: pointer; /* Adiciona cursor de ponteiro */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+}
+
+button:hover {
+    background-color: #555; /* Ajusta a cor de fundo no hover */
+    
+}
+

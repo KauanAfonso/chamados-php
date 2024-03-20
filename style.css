@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background: linear-gradient(rgb(0, 0, 0), rgba(16, 16, 16, 0.844));
+    color: white;
+    width: 100vw;
+    height: 100vh;
+  
+}
+
+input, textarea{
+    width: rem;
+    padding: 0.5rem;
+    border: #333 solid 2px;
+    border-radius: 5px;
+}
+
+form{
+    width: 240px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-image: linear-gradient(rgba(21, 21, 21, 0.6), rgb(27, 27, 27));
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff; /* Ajusta a cor do texto */
+    border: none;
+    cursor: pointer; /* Adiciona cursor de ponteiro */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+    margin: 10px 0px;
+}
+
+.btnVoltar{
+ 
+    background-color: #dc3545 !important;
+    border-color: #dc3545;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    width: 5rem;
+    
+}
